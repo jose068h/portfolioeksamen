@@ -22,6 +22,9 @@ img {
     width: 100%;
     height: auto;
 }
+#video {
+    margin-top: 10px;
+}
 figcaption {
     font-family: 'quasimoda-2', sans-serif;
     font-weight: 200;
