@@ -5,5 +5,159 @@
     top: 40%;
     left: 40%;
     position: fixed;
-}-->
 
+
+
+
+
+    <!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>GALLERI</h1>
+
+    </header>
+    <main>
+        <section>
+            <h2>Billede 1 - AFUK, Vesterbro </h2>
+            <div class="image-container">
+                <figure>
+                    <img src="images/billede1.1.png" alt="Før billede 1">
+                    <figcaption>Før</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/billede1done.jpg" alt="Efter billede 2">
+                    <figcaption>Efter</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Billede 2, GAME, Vesterbro</h2>
+            <div class="image-container">
+                <figure>
+                    <img src="images/billede2.1.png" alt="Før billede 2">
+                    <figcaption>Før</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/billede2done.jpg" alt="Efter billede 2">
+                    <figcaption>Efter</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Billede 3, Enghavevej, Vesterbro</h2>
+            <div class="image-container">
+                <figure>
+                    <img src="images/billede3.1.png" alt="Før billede 3">
+                    <figcaption>Før</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/billede3done.jpg" alt="Efter billede 3">
+                    <figcaption>Efter</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    /*height: 100%; */
+    background-size: cover;
+    vertical-align: middle;
+}
+
+/* Global styles */
+
+body {
+    background: #E6D9C4;
+}
+
+/* Header */
+
+header {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+}
+
+/* Main Content */
+
+h1 {
+    font-family: quasimoda, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 4vw;
+}
+h2 {
+    font-family: quasimoda, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2vw;
+}
+figcaption {
+    font-family: quasimoda, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1vw;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+section {
+    text-align: center;
+    margin: 40px 0;
+}
+.image-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.image-container figure {
+    flex-grow: 1;
+}
+.image-container figcaption {
+    padding: 20px;
+    background: #fff;
+}
+@media (max-width: 550px) {
+    .image-container {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+    .image-container figure {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+    .image-container img {
+        margin-right: 20px;
+    }
+}
+
+}-->
