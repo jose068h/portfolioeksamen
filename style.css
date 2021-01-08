@@ -192,7 +192,7 @@ main::before {
 }
 #second_section img {
     width: 18vw;
-    margin: 10px;
+    margin: 20px;
 }
 #second_section .section_wrapper {
     display: grid;
@@ -296,10 +296,10 @@ main::before {
 }
 .image-container {
     display: flex;
-    padding: 5px;
 }
 .image-container figure {
     flex-grow: 1;
+    margin: 10px;
 }
 .image-container figcaption {
     padding: 20px;
@@ -328,7 +328,7 @@ iframe {
 }
 #seventh_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 1fr;
     column-gap: 20px;
 }
 #seventh_section .col {
@@ -472,8 +472,16 @@ footer .bottom {
         font-family: 'quasimoda-2', sans-serif;
         font-weight: 100;
         font-style: normal;
-        font-size: 20px;
+        font-size: 40px;
         margin-bottom: 0;
+    }
+    h5 {
+        font-family: 'quasimoda-2', sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-top: 4vw;
     }
     #first_section {
         background-image: url(billeder/Sk%C3%A6rmbillede%202021-01-06%20kl.%2013.36.26.png);
@@ -483,7 +491,7 @@ footer .bottom {
     }
     #first_section .section_wrapper {
         display: grid;
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr;
         column-gap: 10px;
         margin: 5vw;
         margin-bottom: 100vw;
@@ -538,19 +546,19 @@ footer .bottom {
     }
     .tema2 {
         margin-left: 5vw;
-        margin-bottom: 5vw;
+        margin-bottom: 15vw;
     }
     .tema3 {
-        margin-left: 15vw;
-        margin-bottom: 5vw;
+        margin-left: 25vw;
+        margin-bottom: 15vw;
     }
     .tema4 {
         margin-left: 5vw;
-        margin-bottom: 5vw;
+        margin-bottom: 15vw;
     }
     .tema5 {
-        margin-left: 15vw;
-        margin-bottom: 5vw;
+        margin-left: 25vw;
+        margin-bottom: 15vw;
     }
     #thired_section {
         margin: 5vw;
@@ -641,6 +649,9 @@ footer .bottom {
         flex-direction: column;
         justify-content: space-between;
     }
+    #seventh_section .col1 {
+        display: none;
+    }
     #seventh_section .img {
         width: 10vw;
     }
@@ -670,6 +681,7 @@ footer .bottom {
         margin-left: 7vw;
         margin-top: 3vw;
     }
+    /*FOOTER*/
     footer {
         z-index: 5;
         background-color: white;
