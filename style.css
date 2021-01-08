@@ -87,13 +87,16 @@ a {
     font-style: normal;
     font-size: 30px;
     margin-bottom: 0;
-    color: black;
+    color: #4EA650;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 a:visited {
-    color: #F3A2C6;
+    /*    color: #F3A2C6;*/
+    color: #4EA650;
 }
 a:hover {
-    color: #4EA650;
+    color: #F3A2C6;
 }
 a:active {
     color: #4EA650;
@@ -117,6 +120,9 @@ a:active {
 }
 #menuknap {
     display: none;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    margin-left: 5vw;
 }
 #menu {
     list-style-type: none;
@@ -186,8 +192,7 @@ main::before {
 }
 #second_section img {
     width: 18vw;
-    margin: 20px;
-    margin-top: 5vw;
+    margin: 10px;
 }
 #second_section .section_wrapper {
     display: grid;
@@ -197,6 +202,9 @@ main::before {
 #second_section .col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+#second_section .col_img5 {
+    margin-top: 4vw;
 }
 #second_section img:hover {
     transform: scale(1.1);
@@ -585,7 +593,6 @@ footer .bottom {
     }
     .image-container {
         display: flex;
-        gap: 20px;
         padding: 20px;
     }
     .image-container figure {
@@ -636,6 +643,32 @@ footer .bottom {
     }
     #seventh_section .img {
         width: 10vw;
+    }
+    /*ABOUT*/
+    #eight_section {
+        margin: 5vw;
+        background-image: url(billeder/Sk%C3%A6rmbillede%202021-01-06%20kl.%2013.36.26.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 5vw;
+        margin-bottom: 20vw;
+        padding: 3vw;
+    }
+    #eight_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 15vw;
+    }
+    #eight_section .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #eight_section img {
+        width: 30vw;
+        height: 30vw;
+        margin-left: 7vw;
+        margin-top: 3vw;
     }
     footer {
         z-index: 5;
