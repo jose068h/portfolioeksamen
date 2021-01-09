@@ -59,6 +59,13 @@ h3 {
     font-size: 40px;
     margin-bottom: 0;
 }
+h6 {
+    font-family: 'quasimoda-2', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 0;
+}
 h4 {
     font-family: 'quasimoda-2', sans-serif;
     font-weight: 100;
@@ -92,11 +99,11 @@ a {
     font-family: 'quasimoda-2', sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 0;
     color: #4EA650;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 a:visited {
     /*    color: #F3A2C6;*/
@@ -260,7 +267,7 @@ main::before {
 #fourth_section .section_wrapper {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 5vw;
 }
 #fourth_section img {
     width: 20vw;
@@ -343,6 +350,10 @@ iframe {
     flex-direction: column;
     justify-content: space-between;
 }
+#seventh_section .col1 {}
+#seventh_section img {
+    padding: 5px;
+}
 
 /*
 .center {
@@ -393,24 +404,27 @@ footer .section_wrapper {
     border-top: 1px solid black;
 }
 footer img {
-    height: 8vw;
+    height: 9vw;
     width: auto;
+    margin-left: 5vw;
 }
 footer .col {
     margin: 50px;
+    padding-top: 5px;
 }
 footer .col1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 1vw;
-    margin-right: 5vw;
+    padding-top: 5px;
+    margin-right: 2vw;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 200;
 }
 footer .bottom {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .fa {
     padding: 10px;
@@ -663,6 +677,12 @@ footer .bottom {
         margin-top: 3vw;
     }
     /*FOOTER*/
+    footer h3 {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 12px;
+    }
     footer {
         z-index: 5;
         background-color: white;
@@ -670,8 +690,8 @@ footer .bottom {
     }
     footer .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        column-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
         border-top: 1px solid black;
     }
     footer img {
@@ -679,9 +699,10 @@ footer .bottom {
     }
     footer .col {
         margin: 10px;
+        column-gap: 15px;
     }
     footer .col1 {
-        display: flex;
+        display: inline-flex;
         flex-direction: row;
         justify-content: space-around;
         padding-top: 1vw;
@@ -689,6 +710,12 @@ footer .bottom {
         font-family: 'Helvetica Neue', sans-serif;
         font-size: 15px;
         font-weight: 200;
+    }
+    footer .col2 {
+        padding: 10px;
+    }
+    footer .col3 {
+        padding: 10px;
     }
     footer .bottom {
         padding-top: 20px;
