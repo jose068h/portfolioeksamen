@@ -568,6 +568,14 @@ footer .bottom {
         display: flex;
         flex-direction: column;
     }
+    #thired_section img {
+        width: 60vw;
+        margin-left: 14vw;
+    }
+    #thired_section a {
+        margin: 5vw;
+        text-align: center;
+    }
     #fourth_section {
         margin: 5vw;
     }
@@ -645,11 +653,12 @@ footer .bottom {
         flex-direction: column;
         justify-content: space-between;
     }
+    #seventh_section img {
+        width: 50vw;
+        margin-left: 14vw;
+    }
     #seventh_section .col1 {
         display: none;
-    }
-    #seventh_section .img {
-        width: 10vw;
     }
     /*ABOUT*/
     #eight_section {
