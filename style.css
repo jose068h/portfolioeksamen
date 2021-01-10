@@ -321,7 +321,7 @@ main::before {
     background: #fff;
 }
 #sixth_section {
-    margin 5vw;
+    margin: 5vw;
     padding: 5vw;
 }
 #sixth_section .section_wrapper {
@@ -619,7 +619,7 @@ footer .bottom {
         margin-right: 20px;
     }
     #sixth_section {
-        margin 5vw;
+        margin: 5vw;
         padding: 5vw;
     }
     #sixth_section .section_wrapper {
