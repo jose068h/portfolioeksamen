@@ -254,13 +254,14 @@ main::before {
 }
 #thired_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     column-gap: 10px;
 }
 #thired_section .col {
     display: flex;
     flex-direction: column;
 }
+#thired_section img {}
 #fourth_section {
     margin: 5vw;
 }
