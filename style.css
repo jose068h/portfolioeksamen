@@ -343,7 +343,7 @@ iframe {
 }
 #seventh_section .section_wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 20px;
 }
 #seventh_section .col {
@@ -351,9 +351,16 @@ iframe {
     flex-direction: column;
     justify-content: space-between;
 }
-#seventh_section .col1 {}
+#seventh_section .col1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 #seventh_section img {
     padding: 5px;
+}
+#seventh_section .row {
+    margin: 10px;
 }
 
 /*
