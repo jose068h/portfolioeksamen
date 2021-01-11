@@ -127,7 +127,9 @@ a:active {
     font-weight: 200;
     text-transform: uppercase;
     text-decoration: none;
-    color: #F3A2C6;
+    /*    color: #F3A2C6;
+    */
+    color: black;
     padding-right: 6vw;
     margin: 2vw;
     margin-top: 2vw;
@@ -254,7 +256,7 @@ main::before {
 }
 #thired_section .section_wrapper {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     column-gap: 10px;
 }
 #thired_section .col {
@@ -322,7 +324,6 @@ main::before {
 }
 #sixth_section {
     margin: 5vw;
-    padding: 5vw;
 }
 #sixth_section .section_wrapper {
     display: grid;
@@ -576,7 +577,7 @@ footer .bottom {
         flex-direction: column;
     }
     #thired_section img {
-        width: 60vw;
+        width: 50vw;
         margin-left: 14vw;
     }
     #thired_section a {
