@@ -87,6 +87,7 @@ p {
     font-style: normal;
     font-size: 15px;
     margin-bottom: 0;
+    line-height: 1.6;
 }
 li {
     font-family: 'quasimoda-2', sans-serif;
@@ -154,7 +155,7 @@ main::before {
     top: 0;
     width: 30px;
     bottom: 0;
-    background-image: url(billeder/banner3.svg);
+    background-image: url(billeder/bannerlille-01.svg);
     background-size: contain;
     background-repeat: space;
     z-index: 1;
@@ -193,8 +194,8 @@ main::before {
 /*PORTFOLIO SECTION 2*/
 
 #second_section {
-    /*        background-image: url(billeder/background.svg);
-        */
+    /*    background-image: url(billeder/background.svg);
+    */
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 50px;
@@ -662,11 +663,8 @@ footer .bottom {
         justify-content: space-between;
     }
     #seventh_section img {
-        width: 50vw;
-        margin-left: 14vw;
-    }
-    #seventh_section .col1 {
-        display: none;
+        width: 35vw;
+        margin-left: 2vw;
     }
     /*ABOUT*/
     #eight_section {
