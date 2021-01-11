@@ -452,6 +452,9 @@ footer .bottom {
     color: white;
 }
 @media screen and (max-width: 600px) {
+    body {
+        padding: 5vw;
+    }
     .hidden {
         opacity: 0;
         transform: translateX(-100%);
