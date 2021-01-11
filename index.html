@@ -1,163 +1,116 @@
-<!--
-#first_section img {
-    width: 13vw;
-    height: 15vw;
-    top: 40%;
-    left: 40%;
-    position: fixed;
-
-
-
-
-
-    <!DOCTYPE html>
-<html lang="">
+<!DOCTYPE html>
+<html lang="da">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galleri</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bjd8uck.css">
+
+    <title>HOME</title>
 </head>
+
+
+
 
 <body>
     <header>
-        <h1>GALLERI</h1>
-
+        <nav>
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>Billede 1 - AFUK, Vesterbro </h2>
-            <div class="image-container">
-                <figure>
-                    <img src="images/billede1.1.png" alt="Før billede 1">
-                    <figcaption>Før</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/billede1done.jpg" alt="Efter billede 2">
-                    <figcaption>Efter</figcaption>
-                </figure>
+
+        <section id="first_section">
+
+            <div class="section_wrapper">
+
+                <div class="col_wide">
+                    <div class="forsidetekst1">
+                        <!--                        <h1>YOUNGMANN <br> DESIGNS <br> by</h1>-->
+                        <h1>JOSEFINE <br> HONORE <br> UNGERMANN</h1>
+
+                        <h3>MULTIMEDIE <br> DESIGN <br> PORTFOLIO</h3>
+                    </div>
+
+
+
+
+                </div>
+
+                <!--
+                <div class="col_narrrow">
+                    <img src="billeder/splashh.png" alt="splash">
+
+                    <div class="tekstforside">
+                        <h1>PORTFOLIO </h1>
+
+                    </div>
+
+
+                </div>
+-->
+
             </div>
+
         </section>
 
 
-        <section>
-            <h2>Billede 2, GAME, Vesterbro</h2>
-            <div class="image-container">
-                <figure>
-                    <img src="images/billede2.1.png" alt="Før billede 2">
-                    <figcaption>Før</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/billede2done.jpg" alt="Efter billede 2">
-                    <figcaption>Efter</figcaption>
-                </figure>
-
-            </div>
-        </section>
-
-        <section>
-            <h2>Billede 3, Enghavevej, Vesterbro</h2>
-            <div class="image-container">
-                <figure>
-                    <img src="images/billede3.1.png" alt="Før billede 3">
-                    <figcaption>Før</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/billede3done.jpg" alt="Efter billede 3">
-                    <figcaption>Efter</figcaption>
-                </figure>
-
-            </div>
-        </section>
 
 
     </main>
+    <footer id="footer">
+        <div class="section_wrapper">
+            <div class="col">
+                <img src="billeder/logo.svg" alt="logo">
 
+            </div>
+            <div class="col1">
+                <div class="col2">
+                    <h3>ABOUT</h3>
+                    <p>Josefine Honoré Ungermann
+                        <br> Multimediedesign, KEA
+                        <br>1. Semester
+                    </p>
+                </div>
+
+                <div class="col2">
+                    <div class="top">
+                        <h3>CONTACT</h3>
+                        <p>
+                            josefineungermann@gmail.com
+                            <br>Tel: +45 20 53 38 53
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col2">
+                    <div class="top">
+                        <h3>SOCIALS</h3>
+                        <p>
+                            Instagram: @youngmann_designs
+                            <br> Facebook: @josefinehonoréungermann
+                        </p>
+                    </div>
+                    <div class="bottom">
+                        <a href="https://www.instagram.com/youngmann_designs/ " class="fa fa-instagram "></a>
+                        <a href="https://www.facebook.com/josefine.ungermann/" class="fa fa-facebook "></a>
+                        <a href="https://dk.linkedin.com/in/josefine-honor%C3%A9-ungermann-4063121a1" class="fa fa-linkedin"></a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
-
-
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-img {
-    width: 100%;
-    /*height: 100%; */
-    background-size: cover;
-    vertical-align: middle;
-}
-
-/* Global styles */
-
-body {
-    background: #E6D9C4;
-}
-
-/* Header */
-
-header {
-    padding: 20px;
-    background: #fff;
-    text-align: center;
-}
-
-/* Main Content */
-
-h1 {
-    font-family: quasimoda, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 4vw;
-}
-h2 {
-    font-family: quasimoda, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 2vw;
-}
-figcaption {
-    font-family: quasimoda, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 1vw;
-}
-main {
-    max-width: 900px;
-    margin: 0 auto;
-}
-section {
-    text-align: center;
-    margin: 40px 0;
-}
-.image-container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-}
-.image-container figure {
-    flex-grow: 1;
-}
-.image-container figcaption {
-    padding: 20px;
-    background: #fff;
-}
-@media (max-width: 550px) {
-    .image-container {
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-    }
-    .image-container figure {
-        flex-basis: 90%;
-        flex-shrink: 0;
-        scroll-snap-align: center;
-    }
-    .image-container img {
-        margin-right: 20px;
-    }
-}
-
-}-->
