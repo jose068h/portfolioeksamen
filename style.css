@@ -119,7 +119,11 @@ a:active {
 #menu li {
     display: inline-block;
 }
-#menu img {
+nav img {
+    float: left;
+    max-height: 50px;
+    display: inline;
+    margin-left: 1vw;
     width: 4vw;
 }
 #menu a {
