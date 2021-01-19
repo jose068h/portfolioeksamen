@@ -205,8 +205,6 @@ main::before {
 /*PORTFOLIO SECTION 2*/
 
 #second_section {
-    /*    background-image: url(billeder/background.svg);
-    */
     background-repeat: no-repeat;
     background-position: left;
     margin: 5vw;
@@ -471,6 +469,7 @@ footer .bottom {
     body {
         padding: 5vw;
     }
+    /*burgermenu*/
     .hidden {
         opacity: 0;
         transform: translateX(-100%);
